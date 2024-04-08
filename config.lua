@@ -10,22 +10,22 @@ Config.IdCardSettings = {
 
 Config.Licenses = {
    ['id_card'] = {
-      header = 'Identity',
+      header = 'Identidade',
       background = '#ebf7fd',
       prop = 'prop_franklin_dl'
    },
    ['driver_license'] = {
-      header = 'Driver License',
+      header = 'Carteira de Motorista',
       background = '#febbbb',
       prop = 'prop_franklin_dl',
    },
    ['weaponlicense'] = {
-      header = 'Weapon License',
+      header = 'Porte de Arma',
       background = '#c7ffe5',
       prop = 'prop_franklin_dl',
    },
    ['lawyerpass'] = {
-      header = 'Lawyer Pass',
+      header = 'Licença de Advogado',
       background = '#f9c491',
       prop = 'prop_cs_r_business_card'
    },
