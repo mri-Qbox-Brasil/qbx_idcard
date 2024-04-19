@@ -1,7 +1,6 @@
 import { fetchNui } from './fetchNui.js';
 import { Global } from '../../lang/global.js';
-
-let config;
+import config from './config.js';
 
 /**
  * Get element by id
@@ -10,13 +9,13 @@ let config;
 const getElementById = (id) => document.getElementById(id);
 
 /**
- * Set visibility 
+ * Set visibility
  * @param visibility {string}
  **/
 const setVisibility = (visibility) => getElementById('um-idcard').style.visibility = visibility;
 
 /**
- * Set visibility of badge 
+ * Set visibility of badge
  * @param badge {string|Object|null}
  **/
 const setBadgeVisibility = (badge) => {
@@ -42,7 +41,7 @@ const closeFunction = () => {
  * @param playerData {Object}
  **/
 const openIdCard = (playerData) => {
-  const license = config.Licenses[playerData.cardtype];
+  const license = config.licenses[playerData.cardtype];
   const elements = {
     lastname: playerData.lastname,
     name: playerData.firstname,
@@ -67,8 +66,8 @@ const openIdCard = (playerData) => {
 };
 
 const autoClose = () => {
-  if (!config.IdCardSettings.autoClose.status) return;
-  setTimeout(closeFunction, config.IdCardSettings.autoClose.time);
+  if (!config.idCardSettings.autoClose.status) return;
+  setTimeout(closeFunction, config.idCardSettings.autoClose.time);
 };
 
 window.addEventListener('message', (event) => {
@@ -87,6 +86,6 @@ window.addEventListener('load', () => {
 });
 
 document.addEventListener('keydown', (e) => {
-  if (e.key !== config.IdCardSettings.closeKey) return;
+  if (e.key !== config.idCardSettings.closeKey) return;
   closeFunction();
 });
