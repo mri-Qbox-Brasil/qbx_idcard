@@ -1,7 +1,7 @@
 Config = {};
 
 Config.IdCardSettings = {
-   closeKey = 'Backspace',
+   closeKey = 'Escape',
    autoClose = {
       status = false, -- or true
       time = 3000

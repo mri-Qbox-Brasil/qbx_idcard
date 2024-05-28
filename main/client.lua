@@ -2,7 +2,6 @@ local openID,dataReady = false,false
 local animDict,anim = 'paper_1_rcm_alt1-9','player_one_dual-9'
 
 -- Functions
-
 -- The state of the nui focus and openID control
 ---@param bool boolean 
 local function nuiFocus(bool)
