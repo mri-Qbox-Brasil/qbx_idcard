@@ -3,7 +3,7 @@ Config = {};
 Config.IdCardSettings = {
    closeKey = 'Escape',
    autoClose = {
-      status = false, -- or true
+      status = true, -- or true
       time = 3000
    }
 };
