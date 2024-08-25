@@ -47,7 +47,8 @@ local function CreateMetaLicense(src, itemTable)
                 mugShot = 'none',
                 badge = GetBadge(src, v)
             }
-            player.Functions.AddItem(v, 1, false, metadata)
+
+            exports.ox_inventory:AddItem(src, v, 1, metadata)
         end
     else
         print("Invalid parameter type")
@@ -67,7 +68,7 @@ local function GetMetaLicense(src, itemTable)
     end
 
     if type(itemTable) == "table" then
-        for _, v in pairs(itemTable) do
+        for _, v in pairs(itemTable) do --luacheck: ignore
             metadata = {
                 cardtype = v,
                 citizenid = player.PlayerData.citizenid,
