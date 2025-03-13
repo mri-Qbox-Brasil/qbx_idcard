@@ -1,4 +1,4 @@
-# um-idcard | old (~~qb-idcard~~)
+# qbx_idcard
 [![umstore](https://cdn.discordapp.com/attachments/715130970294059088/1044857362617470986/Baslksz-3.png)](https://uyuyorumstore.com)
 [![Donate](https://cdn.discordapp.com/attachments/715130970294059088/1044848075996405820/coffee.png)](https://www.buymeacoffee.com/umcof)
 [![License MIT](https://cdn.discordapp.com/attachments/715130970294059088/1044845854508449822/license.png)](https://choosealicense.com/licenses/gpl-3.0/)
@@ -6,20 +6,10 @@
 
 
 <p align="center">
-<img width="180" height="110" src="https://cdn.discordapp.com/attachments/1016069609897595011/1093324949227327529/identity.png">
-<img width="180" height="110" src="https://cdn.discordapp.com/attachments/1016069609897595011/1093324948942106674/driverlicense.png">
-<img width="180" height="110" src="https://cdn.discordapp.com/attachments/1016069609897595011/1093324949466394684/lawyerpass.png">
-<img width="180" height="110" src="https://cdn.discordapp.com/attachments/1016069609897595011/1093324949692878869/weapon_license.png"><br>
- <sup><b>qb-idcard</b> has been updated and renamed as <b>um-idcard</b>, and it is now compatible with <b>ESX</b> and </b><b>QBCore</b> and <b>Qbox</b></sup> 
+<img width="180" height="110" src="https://media.discordapp.net/attachments/711827512274976819/1224271438530215976/idcard.png?ex=661ce2a0&is=660a6da0&hm=b1f609fe207292a6fb0b7422bec56d00ffa6402dbdcf42cc64742b9a2f7a8f6a&=&format=webp&quality=lossless">
+<img width="180" height="110" src="https://media.discordapp.net/attachments/711827512274976819/1224271438278688788/driver.png?ex=661ce2a0&is=660a6da0&hm=de051ec58b88adb9f2d32d894cd4255dddf017e2f240b11463ade3aba50ceff8&=&format=webp&quality=lossless">
+<img width="180" height="110" src="https://media.discordapp.net/attachments/711827512274976819/1224271438744387604/weapon.png?ex=661ce2a0&is=660a6da0&hm=f4fbe671a64474cddd22966f6e82a98b30949303b2104f53c4a2c46e16c90191&=&format=webp&quality=lossless"><br>
 </p>
-
-
-### Setup
-* Make sure you have the items in **Config.Licenses**, otherwise add them.
-* After **[ox_lib](https://github.com/overextended/ox_lib/releases)** and **[MugShotBase64](https://github.com/BaziForYou/MugShotBase64)** 
-* `ensure um-idcard` or `ensure [um] folder`
-* 📄 **[QBCore Starter Setup](https://alp1x.github.io/um-idcard/Starter%20Setup/qbcore)**
-* 📄 **[ESX Starter Setup](https://alp1x.github.io/um-idcard/Starter%20Setup/esx)**
 
 ### Usage
 * Just use the item
@@ -35,13 +25,8 @@
 ### Optional
 * **[um-idcard-menu](https://github.com/alp1x/um-idcard-menu)**
 
-### Inventory
-* **[ox_inventory](https://github.com/overextended/ox_inventory/releases)** (ESX or QBCore)
-* **[qb-inventory or lj-inventory ](https://github.com/qbcore-framework/qb-inventory)** (QBCore)
 
-
-
-## Contributors 
+## Contributors
 <a href="https://github.com/alp1x/um-idcard/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=alp1x/um-idcard" />
 </a>

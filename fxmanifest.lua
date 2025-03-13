@@ -2,12 +2,12 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-name 'um-idcard'
+name 'qbx_idcard'
 author 'uyuyorum {um}'
-version '1.2.7'
+version '1.0.0'
 license 'GPL-3.0 license'
 repository 'https://github.com/alp1x/um-idcard'
-description 'FiveM Identity Card for QBCore and ESX and QBox'
+description 'FiveM Identity Card for QBox'
 
 dependencies {
 	'ox_lib',
@@ -16,7 +16,7 @@ dependencies {
 
 shared_scripts {
 	'@ox_lib/init.lua',
-	'config.lua'
+	'config/shared.lua'
 }
 
 client_script 'main/client.lua'
