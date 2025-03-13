@@ -1,7 +1,7 @@
 return {
 
     idCardSettings = {
-        closeKey = 'Backspace',
+        closeKey = 'Escape',
         autoClose = {
             status = false, -- or true
             time = 3000
