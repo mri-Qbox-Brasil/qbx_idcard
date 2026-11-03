@@ -1,9 +1,9 @@
 export const Global = {
-    lang_header: 'Los Santos',
-    lang_lastname: 'Last Name',
-    lang_firstname: 'First Name',
-    lang_citizenid: 'CitizenID',
-    lang_dob: 'Dob',
-    lang_sex: 'Sex',
-    lang_nat: 'Nationality',
+    lang_header: 'mri_Qbox Brasil',
+    lang_lastname: 'Sobrenome',
+    lang_firstname: 'Nome',
+    lang_citizenid: 'Documento',
+    lang_dob: 'Data de Nascimento',
+    lang_sex: 'Gênero',
+    lang_nat: 'Nacionalidade',
 };

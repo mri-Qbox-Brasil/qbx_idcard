@@ -1,7 +1,7 @@
 return {
 
     idCardSettings = {
-        closeKey = 'Backspace',
+        closeKey = 'Escape',
         autoClose = {
             status = false, -- or true
             time = 3000
@@ -10,25 +10,25 @@ return {
 
     licenses = {
         ['id_card'] = {
-            header = 'Identity',
+            header = 'Identidade',
             background = '#ebf7fd',
             backgroundImage = 'https://i.ibb.co/vxvGzg1/card.png',
             prop = 'prop_franklin_dl'
         },
         ['driver_license'] = {
-            header = 'Driver License',
+            header = 'Carteira de Motorista',
             background = '#febbbb',
             backgroundImage = 'https://i.ibb.co/vxvGzg1/card.png',
             prop = 'prop_franklin_dl',
         },
         ['weaponlicense'] = {
-            header = 'Weapon License',
+            header = 'Porte de Armas',
             background = '#c7ffe5',
             backgroundImage = 'https://i.ibb.co/vxvGzg1/card.png',
             prop = 'prop_franklin_dl',
         },
         ['lawyerpass'] = {
-            header = 'Lawyer Pass',
+            header = 'Carteira OAB',
             background = '#f9c491',
             backgroundImage = 'https://i.ibb.co/vxvGzg1/card.png',
             prop = 'prop_cs_r_business_card'
